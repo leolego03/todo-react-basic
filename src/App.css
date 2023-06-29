@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.Form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.Form-container form {
+  text-align: center;
+}
+
+.Todo-container {
+  display: flex;
+}
+
+.Todo {
+  width: 120px;
+  height: 120px;
+  margin: 0 5px;
+  border: solid #61dafb;
+  border-radius: 10px;
+}
+
+.Todo p {
+  margin: 5px;
+}
